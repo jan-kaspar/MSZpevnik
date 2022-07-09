@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Hejkal;
+namespace MSZpevnik;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

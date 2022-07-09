@@ -1,4 +1,4 @@
-﻿namespace Hejkal;
+﻿namespace MSZpevnik;
 
 public static class MauiProgram
 {

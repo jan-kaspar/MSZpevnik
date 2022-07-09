@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Hejkal;
+namespace MSZpevnik;
 
 public class Program
 {

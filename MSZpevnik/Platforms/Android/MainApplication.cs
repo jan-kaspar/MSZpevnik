@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Hejkal;
+namespace MSZpevnik;
 
 [Application]
 public class MainApplication : MauiApplication

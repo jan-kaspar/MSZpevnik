@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Hejkal;
+namespace MSZpevnik;
 
 public partial class MainPage : ContentPage
 {
@@ -10,7 +10,7 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 
-		Title = "Hejkal";
+		Title = "MSZpevnik";
 		VersionLabel.Text = $"version: {AppInfo.Version} ({AppInfo.BuildString})";
 	}
 

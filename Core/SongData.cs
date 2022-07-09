@@ -6,13 +6,15 @@
 		string title;
 		string author;
 		string source;
+		string file_name;
 
-		public SongData(string _n, string _t, string _a, string _s)
+		public SongData(string _n, string _t, string _fn)
 		{
 			number = _n;
 			title = _t;
-			author = _a;
-			source = _s;
+			author = "";
+			source = "";
+			file_name = _fn;
 		}
 
 		public string GetNumber() => number;

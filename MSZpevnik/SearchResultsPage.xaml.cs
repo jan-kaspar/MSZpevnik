@@ -1,4 +1,4 @@
-namespace Hejkal;
+namespace MSZpevnik;
 
 public partial class SearchResultsPage : ContentPage
 {
@@ -6,7 +6,7 @@ public partial class SearchResultsPage : ContentPage
 	{
 		InitializeComponent();
 
-		Title = "Výsledky hledání";
+		Title = "Vï¿½sledky hledï¿½nï¿½";
 
 		ResultsView.ItemsSource = selection;
 	}

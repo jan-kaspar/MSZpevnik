@@ -1,4 +1,4 @@
-﻿namespace Hejkal;
+﻿namespace MSZpevnik;
 
 public partial class App : Application
 {
