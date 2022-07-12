@@ -42,7 +42,7 @@ namespace MSZpevnik
 
 		public bool Match(string key)
 		{
-			if (number == key)
+			if (string.Equals(key, number, StringComparison.OrdinalIgnoreCase))
 				return true;
 
 			if (IsMatch(title, key))
