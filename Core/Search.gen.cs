@@ -11,7 +11,7 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("CH1", "Chci oslavovat", "CH1.png"));
 			allSongs.Add(new SongData("H2", "Hledám Tvoji tvář", "H2.png"));
 			allSongs.Add(new SongData("H3", "Hosana zní", "H3.png"));
-			allSongs.Add(new SongData("H6", "Hospodin je král", "H6"));
+			allSongs.Add(new SongData("H6", "Hospodin je král", "H6.jpg"));
 			allSongs.Add(new SongData("CH2", "Chci, pane, chválit Tě", "CH2.png"));
 			allSongs.Add(new SongData("H1", "Haleluja, všichni zpívají", "H1.png"));
 			allSongs.Add(new SongData("CH3", "Chleba a víno neseme", "CH3.png"));
@@ -21,7 +21,7 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("CH5", "Chvalte hospodina", "CH5.png"));
 			allSongs.Add(new SongData("B2", "Bůh buď v hlavě mé", "B2.png"));
 			allSongs.Add(new SongData("A2", "Aleluja", "A2.png"));
-			allSongs.Add(new SongData("A6", "Alleluja spasení", "A6"));
+			allSongs.Add(new SongData("A6", "Alleluja spasení", "A6.jpg"));
 			allSongs.Add(new SongData("A5", "Ať srdce mé Tebe vídá", "A5.png"));
 			allSongs.Add(new SongData("B1", "Boží beránku", "B1.png"));
 			allSongs.Add(new SongData("B4", "Byl člověk jako já", "B4.png"));
@@ -36,7 +36,7 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("S4", "Svatý je Pán, hosana", "S4.png"));
 			allSongs.Add(new SongData("S2", "Spoj nás v jedno", "S2.png"));
 			allSongs.Add(new SongData("K2", "Kéž se v našich domech tančí", "K2.png"));
-			allSongs.Add(new SongData("K4", "Kde se křesťané", "K4"));
+			allSongs.Add(new SongData("K4", "Kde se křesťané", "K4.jpg"));
 			allSongs.Add(new SongData("K3", "Králi, milost nám dej", "K3.png"));
 			allSongs.Add(new SongData("K1", "Každý den", "K1.png"));
 			allSongs.Add(new SongData("K5", "Ke slávě tvé", "K5"));
@@ -75,11 +75,11 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("Z6", "Zpívej Haleluja", "Z6.png"));
 			allSongs.Add(new SongData("Z5", "Zde jsem", "Z5.png"));
 			allSongs.Add(new SongData("V3", "Vyvyšuji Tebe Pane", "V3.png"));
-			allSongs.Add(new SongData("V11", "Veď me stále blíž", "V11"));
+			allSongs.Add(new SongData("V11", "Veď me stále blíž", "V11.jpg"));
 			allSongs.Add(new SongData("V9", "Vzdejme Pánu díky", "V9.png"));
 			allSongs.Add(new SongData("V2", "Větší je náš Bůh", "V2.png"));
 			allSongs.Add(new SongData("V5", "Všichni jsme jedno tělo", "V5.png"));
-			allSongs.Add(new SongData("V10", "V smělé důvěře", "V10"));
+			allSongs.Add(new SongData("V10", "V smělé důvěře", "V10.jpg"));
 			allSongs.Add(new SongData("V3", "Víc lásky", "V3.png"));
 			allSongs.Add(new SongData("V1", "V ten den, kdy Pán", "V1.png"));
 			allSongs.Add(new SongData("V4", "Vodo života", "V4.png"));
@@ -88,7 +88,7 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("M2", "Mojžíš", "M2.png"));
 			allSongs.Add(new SongData("M3", "Můj Bůh je můj štít", "M3.png"));
 			allSongs.Add(new SongData("N1", "Nade mnou se smiluj", "N1.png"));
-			allSongs.Add(new SongData("M5", "Moc tvé lásky", "M5"));
+			allSongs.Add(new SongData("M5", "Moc tvé lásky", "M5.jpg"));
 			allSongs.Add(new SongData("M4", "Můj králi, má spáso", "M4.png"));
 			allSongs.Add(new SongData("M1", "Mé dlaně zvednuté", "M1.png"));
 			allSongs.Add(new SongData("M6", "Majesty Sláva tvá", "M6.png"));
@@ -103,8 +103,8 @@ namespace MSZpevnik
 			allSongs.Add(new SongData("P5", "Pojď - svatební text", "P5.png"));
 			allSongs.Add(new SongData("P8", "Požehnaný jsi Bože", "P8.png"));
 			allSongs.Add(new SongData("P2", "Pane, přijď s mocí svou", "P2.png"));
-			allSongs.Add(new SongData("P15", "Příjď tvůj oheň", "P15"));
-			allSongs.Add(new SongData("P14", "Pane můj ty jediný", "P14"));
+			allSongs.Add(new SongData("P15", "Příjď tvůj oheň", "P15.jpg"));
+			allSongs.Add(new SongData("P14", "Pane můj ty jediný", "P14.jpg"));
 			allSongs.Add(new SongData("P6", "Pojď, teď je ten čas jej chválit", "P6.png"));
 			allSongs.Add(new SongData("P12", "Přijmi, Pane", "P12.png"));
 			allSongs.Add(new SongData("P1", "Pane Bože přijď k nám", "P1.png"));
