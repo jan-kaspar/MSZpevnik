@@ -6,7 +6,7 @@ public partial class SearchResultsPage : ContentPage
 	{
 		InitializeComponent();
 
-		Title = "V�sledky hled�n�";
+		Title = "Výsledky hledání";
 
 		ResultsView.ItemsSource = selection;
 	}
