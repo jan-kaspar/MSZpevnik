@@ -1,4 +1,6 @@
-﻿namespace MSZpevnik
+﻿using System.Globalization;
+
+namespace MSZpevnik
 {
 	public class SongData
 	{
@@ -25,8 +27,17 @@
 
 		private static bool IsMatch(string whereToSearch, string whatToSearch)
 		{
-			// TODO: ignore diacritics
-			return whereToSearch.IndexOf(whatToSearch, StringComparison.OrdinalIgnoreCase) >= 0;
+			if (whatToSearch.Length == 0)
+				return true;
+
+			for (int i = 0; i < whereToSearch.Length - whatToSearch.Length + 1; ++i)
+			{
+				if (String.Compare(whereToSearch.Substring(i, whatToSearch.Length), whatToSearch,
+						CultureInfo.CurrentCulture, CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreCase) == 0)
+					return true;
+			}
+
+			return false;
 		}
 
 		public bool Match(string key)
