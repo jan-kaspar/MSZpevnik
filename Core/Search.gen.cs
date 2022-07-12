@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Hejkal
+namespace MSZpevnik
 {
 	partial class Search
 	{

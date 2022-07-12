@@ -21,11 +21,7 @@
 		public string GetTitle() => title;
 		public string GetAuthor() => author;
 		public string GetSource() => source;
-
-		public string GetFileName()
-		{
-			return "Songs/" + number + ".html";
-		}
+		public string GetFileName() => file_name;
 
 		private static bool IsMatch(string whereToSearch, string whatToSearch)
 		{
