@@ -15,12 +15,12 @@
 		<ApplicationTitle>MSZpevnik</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.kaspi.hejkal</ApplicationId>
-		<ApplicationIdGuid>C2D2C1D7-6BF9-423A-9C19-AB787463F7C9</ApplicationIdGuid>
+		<ApplicationId>com.kaspi.mszpevnik</ApplicationId>
+		<ApplicationIdGuid>A436DC3E-51E4-4196-A5EF-75337DB9A65B</ApplicationIdGuid>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>0.5</ApplicationDisplayVersion>
-		<ApplicationVersion>1</ApplicationVersion>
+		<ApplicationDisplayVersion>0.6</ApplicationDisplayVersion>
+		<ApplicationVersion>2</ApplicationVersion>
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
