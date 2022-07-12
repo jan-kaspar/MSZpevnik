@@ -8,6 +8,7 @@ public partial class SongViewPage : ContentPage
 
 		Title = @"Píseň " + song.GetNumber();
 
-		SongWebView.Source = song.GetFileName();
+		string path = @"Songs/" + song.GetFileName();
+		SongWebView.Source = path;
 	}
 }
